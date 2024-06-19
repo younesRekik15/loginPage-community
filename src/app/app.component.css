@@ -1,0 +1,55 @@
+main {
+    background-color: red;
+    width: calc(100% - 64px);
+    height: calc(100% - 64px);
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 32px;
+    padding: 32px;
+}
+
+main section {
+    width: calc(50% - 16px);
+    height: 100%;
+    background-color: blue;
+}
+
+@media only screen and (max-width: 875px){
+     main {
+        flex-direction: column;
+        gap: 27px;
+        padding: 24px;
+        width: calc(100% - 48px);
+        height: calc(100% - 48px);
+    }
+
+    main section:nth-of-type(1) {
+        height: 180px;
+        width: 100%;
+    }
+    
+    main section:nth-of-type(2) {
+        width: 100%;
+        height: 548px;
+    }
+
+    main section.copyright-phone {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .copyright-pc{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 876px){
+   .copyright-phone{
+       display: none;
+   }
+    .copyright-pc{
+        width: fit-content;
+        height: fit-content;
+    }
+}
