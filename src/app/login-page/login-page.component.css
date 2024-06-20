@@ -1,0 +1,19 @@
+.container {
+    background: green;
+    width: 388px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+header, form, .or-form {
+    background-color: yellow;
+}
+
+@media only screen and (max-width: 875px){
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+}
