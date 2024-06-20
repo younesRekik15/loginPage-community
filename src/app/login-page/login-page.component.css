@@ -7,6 +7,22 @@
     gap: 48px;
 }
 
+.title, .sub-title {
+    margin: 0;
+}
+
+.title {
+    font-size: 36px;
+    padding-bottom: 28px;
+    color: var( --primary-text );
+}
+
+.sub-title {
+    font-size: 20px;
+    line-height: 160%;
+    color: var( --secondary-text );
+}
+
 header, form, .or-form {
     background-color: yellow;
 }
@@ -15,5 +31,13 @@ header, form, .or-form {
     .container {
         width: 100%;
         height: 100%;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+    
+    .sub-title {
+        font-size: 15px;
     }
 }
