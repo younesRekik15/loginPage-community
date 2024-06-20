@@ -53,10 +53,32 @@ form {
     font-size: 16px;
 }
 
+a {
+    color: var( --link );
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+}
+
+.main-button {
+    font-size: 20px;
+    width: 100% ;
+    min-width: 150px;
+    padding: 0 16px;
+    border-radius: 12px;
+    border: none;
+    background-color: #162D3A;
+    color: #FFFFFF;
+    cursor: pointer;
+    line-height: 52px;
+}
+
 @media only screen and (max-width: 875px){
     .container {
         width: 100%;
         height: 100%;
+        gap: 24px;
     }
 
     .title {
@@ -65,5 +87,30 @@ form {
     
     .sub-title {
         font-size: 15px;
+    }
+
+    form {
+        gap: 16px;
+    }
+
+    .input {
+        font-size: 14px;
+    }
+
+    .input input {
+        height: 44px;
+    }
+    
+    .input input::placeholder {
+        font-size: 14px;
+    }
+
+    a {
+        font-size: 14px;
+    }
+
+    .main-button {
+        font-size: 16px;
+        height: 46px;
     }
 }
