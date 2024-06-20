@@ -1,5 +1,4 @@
 main {
-    background-color: red;
     width: calc(100% - 64px);
     height: calc(100% - 64px);
     display: flex;
@@ -11,7 +10,6 @@ main {
 main section {
     width: calc(50% - 16px);
     height: 100%;
-    background-color: blue;
 }
 
 .flex-items-container {
