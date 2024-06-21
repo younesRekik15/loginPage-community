@@ -4,7 +4,23 @@
     --secondary-text: #313957;
 }
 
+/* fonts */
 
+@font-face {
+    font-family: sf-pro-display;
+    src: url('../public/fonts/SFPRODISPLAYREGULAR.OTF') format("opentype");
+}
+
+@font-face {
+    font-family: sf-pro-display-rounded;
+    src: url('../public/fonts/SF-Pro-Rounded-Regular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('../public/fonts/Roboto-Regular.ttf') format("truetype");
+}
+/*          ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^          */
 html, body {
     height: 100%;
     margin: 0;
@@ -14,4 +30,9 @@ html, body {
 a {
     color: var( --link );
     text-decoration: none;
+}
+
+* {
+    
+    font-family: roboto;
 }

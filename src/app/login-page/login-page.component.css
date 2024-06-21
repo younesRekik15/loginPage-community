@@ -14,12 +14,14 @@
     font-size: 36px;
     padding-bottom: 28px;
     color: var( --primary-text );
+    font-family: sf-pro-display-rounded;
 }
 
 .sub-title {
     font-size: 20px;
     line-height: 160%;
     color: var( --secondary-text );
+    font-family: sf-pro-display;
 }
 
 .sign-up {
