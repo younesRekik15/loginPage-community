@@ -6,16 +6,7 @@
             Sign in to start managing your projects.
         </p>
     </header>
-    <app-form></app-form>
-    <div class="or-form">
-        <div class="or-container">
-            <div class="or">Or</div>
-        </div>
-        <div class="sign-in-buttons">
-            @for (socialButton of socialButtons; track socialButton.id){
-                <button class="sotial-button"><img src="icons/{{ socialButton.name }}.svg" alt="{{ socialButton.name }} icon" class="icon"><span>Sign in with</span>&nbsp;<span>{{ socialButton.name }}</span></button>
-            }
-        </div>
-    </div>
+    <app-form />
+    <app-or-form />
     <p class="sign-up">Don't you have an account? <a>Sign up</a></p>
 </div>
