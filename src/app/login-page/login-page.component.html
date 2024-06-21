@@ -19,6 +19,13 @@
         <button class="main-button" onclick='location.href="https://www.facebook.com/"'>Sign in</button>
     </form>
     <div class="or-form">
-        this is or-form
+        <div class="or-container">
+            <div class="or">Or</div>
+        </div>
+        <div class="sign-in-buttons">
+            @for (socialButton of socialButtons; track socialButton.id){
+                <button class="sotial-button"><img src="icons/{{ socialButton.name }}.svg" alt="{{ socialButton.name }} icon" class="icon"><span>Sign in with</span>&nbsp;<span>{{ socialButton.name }}</span></button>
+            }
+        </div>
     </div>
 </div>

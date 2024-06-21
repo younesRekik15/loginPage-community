@@ -24,6 +24,16 @@ export class LoginPageComponent {
       placeholder: "At least 8 characters"
     }
   ];
+  socialButtons: SocialButton[] = [
+    {
+      id: 1,
+      name: "Google"
+    },
+    {
+      id: 2,
+      name: "Facebook"
+    }
+  ];
 }
 
 export class Input {
@@ -33,3 +43,7 @@ export class Input {
   "placeholder": string;
 }
 
+export class SocialButton {
+  "id": number;
+  "name": string;
+}
