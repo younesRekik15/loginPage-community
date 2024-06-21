@@ -22,66 +22,7 @@
     color: var( --secondary-text );
 }
 
-/* vvv form part vvv */
-
-form {
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
-
-.input {
-    font-size: 16px;
-    color: var( --primary-text );
-}
-
-.input input {
-    box-sizing: border-box;
-    width: 100%;
-    height: 50px;
-    border: 1px solid #D4D7E3 ;
-    border-radius: 12px;
-    background-color: #F7FBFF;
-    padding: 16px;
-    margin-top: 7px;
-}
-
-.input input::placeholder {
-    color: #8897AD;
-    font-size: 16px;
-}
-
-a {
-    color: var( --link );
-    text-decoration: none;
-}
-
-.forgot-password {
-    display: block;
-    width: fit-content;
-    margin-left: auto;
-}
-
-.sign-up {
-    margin: 0;
-    text-align: center;
-    font-size: 18px;
-}
-
-.main-button {
-    font-size: 20px;
-    width: 100% ;
-    min-width: 150px;
-    padding: 0 16px;
-    border-radius: 12px;
-    border: none;
-    background-color: #162D3A;
-    color: #FFFFFF;
-    cursor: pointer;
-    line-height: 52px;
-}
+/* vvv or-form part vvv */
 
 .or-form {
     display: flex;
@@ -148,6 +89,13 @@ a {
     min-width: 60px;
 }
 
+
+.sign-up {
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+}
+
 @media only screen and (max-width: 875px){
     .container {
         width: 100%;
@@ -163,29 +111,9 @@ a {
         font-size: 15px;
     }
 
-    form {
-        gap: 16px;
-    }
-
-    .input {
-        font-size: 14px;
-    }
-
-    .input input {
-        height: 44px;
-    }
-    
-    .input input::placeholder {
-        font-size: 14px;
-    }
-
-    a {
-        font-size: 14px;
-    }
-
     .main-button {
         font-size: 16px;
-        height: 46px;
+        line-height: 46px;
     }
 
     .or-form div.sign-in-buttons{
