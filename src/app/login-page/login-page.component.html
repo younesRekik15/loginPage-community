@@ -6,18 +6,7 @@
             Sign in to start managing your projects.
         </p>
     </header>
-    <form>
-        @for (input of inputs; track input.id){
-            <label for="{{ input.type }}" class="input">
-                {{ input.name }}<br>
-                <input type="{{ input.type }}" name="{{ input.type }}" id="{{ input.type }}" placeholder="{{ input.placeholder }}">
-            </label>
-        }
-
-        <a class="forgot-password">Forgot Password?</a>
-        
-        <button class="main-button" onclick='location.href="https://www.facebook.com/"'>Sign in</button>
-    </form>
+    <app-form></app-form>
     <div class="or-form">
         <div class="or-container">
             <div class="or">Or</div>
