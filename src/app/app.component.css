@@ -40,7 +40,7 @@ main section {
         gap: 27px;
         padding: 24px;
         width: calc(100% - 48px);
-        height: calc(100% - 48px);
+        height: fit-content;
     }
 
     main section:nth-of-type(1) {

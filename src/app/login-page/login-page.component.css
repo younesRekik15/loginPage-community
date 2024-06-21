@@ -56,9 +56,18 @@ form {
 a {
     color: var( --link );
     text-decoration: none;
+}
+
+.forgot-password {
     display: block;
     width: fit-content;
     margin-left: auto;
+}
+
+.sign-up {
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
 }
 
 .main-button {
@@ -200,5 +209,9 @@ a {
     
     .sotial-button span:first-of-type {
         display: none;
+    }
+
+    .sign-up {
+        font-size: 16px;
     }
 }

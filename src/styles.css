@@ -4,10 +4,6 @@
     --secondary-text: #313957;
 }
 
-* {
-    outline:1px solid black;/* will be removed, just to make it easier to read the code's output */
-}
-
 
 html, body {
     height: 100%;
